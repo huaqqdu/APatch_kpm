@@ -17,7 +17,7 @@ KPM_NAME("qti_battery_charger");
 KPM_VERSION(QBC_VERSION);
 KPM_LICENSE("GPL v2");
 KPM_AUTHOR("lzghzr");
-KPM_DESCRIPTION("set battery_psy_get_prop value");
+KPM_DESCRIPTION("set battery_psy_get_prop dome");
 
 int (*do_init_module)(struct module* mod) = 0;
 int (*battery_psy_get_prop)(struct power_supply* psy, enum power_supply_property prop, union power_supply_propval* pval) = 0;
